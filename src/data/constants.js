@@ -6,6 +6,7 @@ export const Bio = {
     "I am a Software Engineer ( Frontend UI Developer ).  I have 1.3+ years of experience in React ,Redux with proficiency in web technologies like HTML5, CSS3, JavaScript , Java & Spring Boot building large-scale web applications, and building responsive user interfaces.I enjoy being challenged and working on projects that push me outside of my comfort zone.",
 
   github: "https://github.com/Sudhirzuge",
+  email: "sudhirzuge2000@gmail.com",
   resume:
     "https://drive.google.com/file/d/1Wb-Hh9hVHonpMU7RB7W9GXlZ3YW5y3Zn/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/sudhirzuge/",
@@ -41,11 +42,7 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
-      // {
-      //   name: "Bootstrap",
-      //   image:
-      //     "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      // },
+
       {
         name: "Tailwindcss",
         image:
@@ -166,7 +163,6 @@ export const experiences = [
     date: "Mar 2022 - May 2022",
     desc: "Completed a Java/J2EE project for academic graduation requirements during the Pune internship, showcasing strong dedication and sincere learning. Demonstrated a positive attitude, adaptability, and effective teamwork, receiving positive feedback for excellent work.",
     skills: ["HTML", "CSS", "Core Java"],
-    // doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
 ];
 
@@ -177,7 +173,7 @@ export const education = [
     school: "Amrutvahini College Of Engineering, Sangamner ",
     date: "Jun 2018 - Jul 2022",
     grade: "8.88 CGPA",
-    // desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "completed graduation in electrical engineering",
     degree: "Bachelor of Engineering - Savitribai Phule Pune University",
   },
 ];

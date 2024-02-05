@@ -137,13 +137,16 @@ const Contact = () => {
   const form = useRef();
 
   return (
-    <Container>
+    <Container id="contact">
       <Wrapper>
-        <Title>Contact</Title>
+        <Title>Contact Me</Title>
         <Desc>
           Feel free to reach out to me for any queries or opportunities..!!
-          contact me at sudhirzuge2000@gmail.com or through this form.
+          Contact me at{" "}
+          <a href="mailto:sudhirzuge2000@gmail.com">sudhirzuge2000@gmail.com</a>{" "}
+          or through this form.
         </Desc>
+
         <ContactForm
           ref={form}
           action="https://formspree.io/f/xdoqedge"

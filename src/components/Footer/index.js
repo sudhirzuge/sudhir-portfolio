@@ -3,6 +3,7 @@ import styled from "styled-components";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
 
 import { Bio } from "../../data/constants";
 
@@ -95,6 +96,7 @@ function Footer() {
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.twitter} target="display">
@@ -108,8 +110,12 @@ function Footer() {
           <SocialMediaIcon href={Bio.github} target="display">
             <GitHubIcon />
           </SocialMediaIcon>
+
+          <SocialMediaIcon href={`mailto:${Bio.email}`} target="display">
+            <EmailIcon />
+          </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Sudhir Zuge. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Sudhir Zuge. All Rights Reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

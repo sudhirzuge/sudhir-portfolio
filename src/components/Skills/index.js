@@ -101,6 +101,13 @@ const SkillItem = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8px;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.text_light};
+  }
+
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;
