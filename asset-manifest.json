@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sudhir-portfolio/static/css/main.bf538fe7.css",
+    "main.js": "/sudhir-portfolio/static/js/main.47638e0f.js",
+    "static/media/HeroImage.jpg": "/sudhir-portfolio/static/media/HeroImage.aeb235faa4e3cbca697c.jpg",
+    "index.html": "/sudhir-portfolio/index.html",
+    "main.bf538fe7.css.map": "/sudhir-portfolio/static/css/main.bf538fe7.css.map",
+    "main.47638e0f.js.map": "/sudhir-portfolio/static/js/main.47638e0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.47638e0f.js"
+  ]
+}
