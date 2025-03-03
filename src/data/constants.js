@@ -1,16 +1,16 @@
 export const Bio = {
   name: "Sudhir Zuge",
-  roles: ["Frontend Developer", "Full Stack Developer"],
+  roles: ["Full Stack Developer", "Frontend Developer", "Backend Developer"],
 
   description:
-    "I am a Software Engineer ( Frontend UI Developer ).  I have 1.3+ years of experience in React ,Redux with proficiency in web technologies like HTML5, CSS3, JavaScript , Java & Spring Boot building large-scale web applications, and building responsive user interfaces.I enjoy being challenged and working on projects that push me outside of my comfort zone.",
+    "I am a Software Developer ( Full Stack Developer ).  I have 1.3+ years of experience in React.js, Redux, JavaScript, HTML5, CSS3 with proficiency in web technologies like  Java, Spring Boot, Spring Security, Restfull APIs building large-scale web applications, and building responsive user interfaces.I enjoy being challenged and working on projects that push me outside of my comfort zone.",
 
   github: "https://github.com/Sudhirzuge",
   email: "sudhirzuge2000@gmail.com",
   resume:
-    "https://drive.google.com/file/d/1vN79x9pfQ1nwykR7fD92nFFfrIUC5QPT/view?usp=drive_link",
+    "https://drive.google.com/file/d/1I1O-7IrY-JloYEjA5dovkmRyIJx63s0t/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/sudhirzuge/",
-  twitter: "https://twitter.com/sudhirzuge",
+  twitter: "https://x.com/sudhirzuge",
 };
 
 export const skills = [
@@ -29,11 +29,11 @@ export const skills = [
       },
 
       {
-        name: "HTML",
+        name: "HTML5",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
       {
-        name: "CSS",
+        name: "CSS3",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
@@ -66,14 +66,21 @@ export const skills = [
       },
 
       {
-        name: "MySQL",
+        name: "Spring Security",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Spring_Boot.svg",
       },
 
       {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        name: "RESTful APIs",
+        image:
+          "https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/rest-api-icon.png",
+      },
+
+      {
+        name: "MySQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
 
       {
@@ -115,21 +122,20 @@ export const skills = [
       },
 
       {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        name: "Linux",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg",
       },
 
-      {
-        name: "Intellij",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg",
-      },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
+      // {
+      //   name: "Docker",
+      //   image:
+      //     "https://en.wikipedia.org/wiki/Docker_(software)#/media/File:Docker_logo.svg",
+      // },
+      // {
+      //   name: "Netlify",
+      //   image:
+      //     "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      // },
     ],
   },
 ];
@@ -140,19 +146,18 @@ export const experiences = [
     img: "https://upload.wikimedia.org/wikipedia/en/0/01/Atos.svg",
     role: "Frontend developer",
     company: "Atos",
-    date: "Sept 2022 - Dec 2023",
+    date: "Sept 2022 - Aug 2023",
     desc: "Client : SBMB ( Service Box Multi Brand ).Worked on feature development, implemented user interfaces, ensured a seamless user experience, and built and maintained responsive web applications using React.js.",
     skills: [
       "React.js",
       "Redux.js",
       "JavaScript",
-      "HTML",
-      "CSS",
+      "HTML5",
+      "CSS3",
+      "Jira Tool",
       "Java",
       "Spring Boot",
       "MySQL",
-      "Microsoft Azure",
-      "Jira Tool",
     ],
   },
   {
@@ -161,19 +166,28 @@ export const experiences = [
     role: "Project Engineer Intern",
     company: "Wipro",
     date: "Mar 2022 - May 2022",
-    desc: "Completed a Java/J2EE project for academic graduation requirements during the Pune internship, showcasing strong dedication and sincere learning. Demonstrated a positive attitude, adaptability, and effective teamwork, receiving positive feedback for excellent work.",
-    skills: ["HTML", "CSS", "Core Java"],
+    desc: "Completed a Java/J2EE project for requirement of academic graduation, during the internship i learn to make standalone console based application. Received positive feedback for excellent work.",
+    skills: ["Core Java"],
   },
 ];
 
 export const education = [
   {
     id: 0,
+    img: "https://upload.wikimedia.org/wikipedia/en/d/db/C-DAC_LogoTransp.png",
+    school: "Sunbeam Institute of Information Technology, Pune",
+    date: "Aug 2024 - Feb 2025",
+    grade: "CDAC CCEE EXAM : 71%",
+    desc: " ",
+    degree: " PG-DAC from CDAC ACTS Pune",
+  },
+  {
+    id: 1,
     img: "https://www.avcoe.org/images/logo/avcoe-engineering-logo.png",
     school: "Amrutvahini College Of Engineering, Sangamner ",
     date: "Jun 2018 - Jul 2022",
     grade: "8.88 CGPA",
-    desc: "completed graduation in electrical engineering",
+    desc: " ",
     degree: "Bachelor of Engineering - Savitribai Phule Pune University",
   },
 ];
