@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sudhir-portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/sudhir-portfolio/static/js/main.41c3a3a5.js",
+    "main.js": "/sudhir-portfolio/static/js/main.0400d5b1.js",
     "static/media/HeroImage.jpg": "/sudhir-portfolio/static/media/HeroImage.aeb235faa4e3cbca697c.jpg",
     "index.html": "/sudhir-portfolio/index.html",
     "main.bf538fe7.css.map": "/sudhir-portfolio/static/css/main.bf538fe7.css.map",
-    "main.41c3a3a5.js.map": "/sudhir-portfolio/static/js/main.41c3a3a5.js.map"
+    "main.0400d5b1.js.map": "/sudhir-portfolio/static/js/main.0400d5b1.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.41c3a3a5.js"
+    "static/js/main.0400d5b1.js"
   ]
 }
