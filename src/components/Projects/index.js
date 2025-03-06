@@ -19,7 +19,7 @@ const Projects = ({ openModal, setOpenModal }) => {
     <Container id="projects">
       <Wrapper>
         <Title>Projects</Title>
-        {/* <ToggleButtonGroup>
+        <ToggleButtonGroup>
           {toggle === "all" ? (
             <ToggleButton active value="all" onClick={() => setToggle("all")}>
               All
@@ -30,54 +30,57 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "web app" ? (
+          {toggle === "Frontend Apps" ? (
             <ToggleButton
               active
-              value="web app"
-              onClick={() => setToggle("web app")}
+              value="Frontend Apps"
+              onClick={() => setToggle("Frontend Apps")}
             >
-              WEB APP'S
+              Frontend Apps
             </ToggleButton>
           ) : (
-            <ToggleButton value="web app" onClick={() => setToggle("web app")}>
-              WEB APP'S
+            <ToggleButton
+              value="Frontend Apps"
+              onClick={() => setToggle("Frontend Apps")}
+            >
+              Frontend Apps
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "android app" ? (
+          {toggle === "Backend Apps" ? (
             <ToggleButton
               active
-              value="android app"
-              onClick={() => setToggle("android app")}
+              value="Backend Apps"
+              onClick={() => setToggle("Backend Apps")}
             >
-              ANDROID APP'S
+              Backend Apps
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="android app"
-              onClick={() => setToggle("android app")}
+              value="Backend Apps"
+              onClick={() => setToggle("Backend Apps")}
             >
-              ANDROID APP'S
+              Backend Apps
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "machine learning" ? (
+          {toggle === "Full Stack Apps" ? (
             <ToggleButton
               active
-              value="machine learning"
-              onClick={() => setToggle("machine learning")}
+              value="Full Stack Apps"
+              onClick={() => setToggle("Full Stack Apps")}
             >
-              MACHINE LEARNING
+              Full Stack
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="machine learning"
-              onClick={() => setToggle("machine learning")}
+              value="Full Stack Apps"
+              onClick={() => setToggle("Full Stack Apps")}
             >
-              MACHINE LEARNING
+              Full Stack Apps
             </ToggleButton>
           )}
-        </ToggleButtonGroup> */}
+        </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
             projects.map((project) => (
