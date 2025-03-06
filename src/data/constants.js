@@ -3,7 +3,7 @@ export const Bio = {
   roles: ["Full Stack Developer", "Frontend Developer", "Backend Developer"],
 
   description:
-    "I am a Software Developer ( Full Stack Developer ).  I have 1.3+ years of experience in React.js, Redux, JavaScript, HTML5, CSS3 with proficiency in web technologies like  Java, Spring Boot, Spring Security, Restfull APIs building large-scale web applications, and building responsive user interfaces.I enjoy being challenged and working on projects that push me outside of my comfort zone.",
+    "I am a Software Developer (Full Stack Developer) with 1.3+ years of experience in building large-scale web applications. My expertise lies in React.js, Redux, JavaScript, HTML5, and CSS3, along with proficiency in backend technologies such as Java, Spring Boot, Spring Security, and RESTful APIs. I thrive on challenges and enjoy working on projects that push me beyond my comfort zone, allowing me to continuously learn and grow.",
 
   github: "https://github.com/Sudhirzuge",
   email: "sudhirzuge2000@gmail.com",
@@ -147,12 +147,12 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://upload.wikimedia.org/wikipedia/en/d/db/C-DAC_LogoTransp.png",
+    img: "https://www.sunbeaminfo.com/img/new/sunbeamnewactslogo.png",
     school: "Sunbeam Institute of Information Technology, Pune",
     date: "Aug 2024 - Feb 2025",
     grade: "CDAC CCEE EXAM : 71%",
-    desc: " ",
-    degree: " PG-DAC from CDAC ACTS Pune",
+    desc: "I have upskilled myself through the C-DAC program, gaining expertise in a wide range of technologies. This journey has enhanced my ability to build robust and scalable applications across the tech stack.",
+    degree: " Post Graduation Diploma in Advanced Computing - CDAC ACTS Pune",
   },
   {
     id: 1,
@@ -160,7 +160,7 @@ export const education = [
     school: "Amrutvahini College Of Engineering, Sangamner ",
     date: "Jun 2018 - Jul 2022",
     grade: "8.88 CGPA",
-    desc: " ",
+    desc: "My graduation journey helped me build a strong analytical mindset and problem-solving skills, which I have effectively applied in my software development career.",
     degree: "Bachelor of Engineering - Savitribai Phule Pune University",
   },
 ];
@@ -184,7 +184,7 @@ export const projects = [
       "Java",
       "MySQL",
     ],
-    category: "web app",
+    category: "Full Stack Apps",
     github: "https://github.com/sudhirzuge/CureAll",
     webapp: " ",
   },
@@ -197,7 +197,7 @@ export const projects = [
     image:
       "https://github.com/sudhirzuge/sudhir-portfolio/blob/main/EMS%20Admin.png?raw=true",
     tags: ["React.js", "Bootstrap", "Spring Boot ", "MySQL"],
-    category: "web app",
+    category: "Full Stack Apps",
     github: "https://github.com/sudhirzuge/Employee-Management-System",
     webapp: " ",
   },

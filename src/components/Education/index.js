@@ -79,6 +79,10 @@ const index = () => {
     <Container id="education">
       <Wrapper>
         <Title>Education</Title>
+        <Desc>
+          My education has been a journey of self-discovery and growth. Here are
+          my educational details.
+        </Desc>
         <TimelineSection>
           <Timeline>
             {education.map((education, index) => (

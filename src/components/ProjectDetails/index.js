@@ -235,10 +235,10 @@ const index = ({ openModal, setOpenModal }) => {
             </>
           )}
           <ButtonGroup>
-            <Button dull href={project?.github} target="new">
+            <Button href={project?.github} target="new">
               View Code
             </Button>
-            <Button href={project?.webapp} target="new">
+            <Button dull href={project?.webapp} target="new">
               View Live App
             </Button>
           </ButtonGroup>

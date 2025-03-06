@@ -104,8 +104,16 @@ const SkillItem = styled.div`
   transition: background-color 0.3s ease-in-out;
 
   &:hover {
+    background-color: ${({ theme }) => theme.primary_hover || "#00A8E8"};
+    color: ${({ theme }) => theme.text_light || "#FFFFFF"};
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  ${
+    "" /* &:hover {
     background-color: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.text_light};
+  } */
   }
 
   @media (max-width: 768px) {
@@ -128,6 +136,11 @@ const Skills = () => {
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
+        <Desc>
+          Here are some of the key skills I have been mastering, enabling me to
+          build innovative solutions and stay ahead in the ever-evolving tech
+          landscape.
+        </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
             <Skill>

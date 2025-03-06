@@ -19,6 +19,10 @@ const Projects = ({ openModal, setOpenModal }) => {
     <Container id="projects">
       <Wrapper>
         <Title>Projects</Title>
+        <Desc>
+          I have worked on a wide range of projects, from frontend apps to
+          full-stack apps. Here are some of my projects.
+        </Desc>
         <ToggleButtonGroup>
           {toggle === "all" ? (
             <ToggleButton active value="all" onClick={() => setToggle("all")}>
@@ -64,13 +68,13 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "Full Stack Apps" ? (
+          {toggle == "Full Stack Apps" ? (
             <ToggleButton
               active
               value="Full Stack Apps"
               onClick={() => setToggle("Full Stack Apps")}
             >
-              Full Stack
+              Full Stack Apps
             </ToggleButton>
           ) : (
             <ToggleButton
