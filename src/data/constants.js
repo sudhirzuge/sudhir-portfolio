@@ -173,7 +173,7 @@ export const projects = [
     description:
       "CureAll is a full-stack web application designed to streamline patient-doctor interactions across multiple hospitals. Key features include: Appointment Scheduling : Allowing patients to book and manage appointments efficiently. Prescription Management : Secure handling of prescriptions and medical records. Secure Data Handling : Ensuring privacy and compliance with healthcare standards. ",
     image:
-      "https://github.com/sudhirzuge/sudhir-portfolio/blob/main/Screenshot%20(908).png?raw=true)",
+      "https://github.com/sudhirzuge/sudhir-portfolio/blob/main/CureAll%20Admin.png?raw=true",
     tags: [
       "React.js",
       "Tailwind CSS",
@@ -186,6 +186,19 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/sudhirzuge/CureAll",
+    webapp: " ",
+  },
+  {
+    id: 1,
+    title: "Employee Management System",
+    date: "Jan 2025 - Jan 2025",
+    description:
+      "Employee Management System is a Simple crud operation full stack application having both employee & admin access",
+    image:
+      "https://github.com/sudhirzuge/sudhir-portfolio/blob/main/EMS%20Admin.png?raw=true",
+    tags: ["React.js", "Bootstrap", "Spring Boot ", "MySQL"],
+    category: "web app",
+    github: "https://github.com/sudhirzuge/Employee-Management-System",
     webapp: " ",
   },
 ];
