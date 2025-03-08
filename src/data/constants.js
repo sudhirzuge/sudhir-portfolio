@@ -144,10 +144,13 @@ export const experiences = [
   },
 ];
 
+// https://media.licdn.com/dms/image/v2/C4D0BAQGObigiUGPxhA/company-logo_200_200/company-logo_200_200/0/1631354037878?e=2147483647&v=beta&t=2v7YCVQjrj5mzDCt7v0aFkMmXIKXTeZDkCf4lauwjrU
+// https://www.sunbeaminfo.com/img/new/sunbeamnewactslogo.png
+
 export const education = [
   {
     id: 0,
-    img: "https://www.sunbeaminfo.com/img/new/sunbeamnewactslogo.png",
+    img: "https://media.licdn.com/dms/image/v2/C4D0BAQGObigiUGPxhA/company-logo_200_200/company-logo_200_200/0/1631354037878?e=2147483647&v=beta&t=2v7YCVQjrj5mzDCt7v0aFkMmXIKXTeZDkCf4lauwjrU",
     school: "Sunbeam Institute of Information Technology, Pune",
     date: "Aug 2024 - Feb 2025",
     grade: "CDAC CCEE EXAM : 71%",
@@ -199,6 +202,19 @@ export const projects = [
     tags: ["React.js", "Bootstrap", "Spring Boot ", "MySQL"],
     category: "Full Stack Apps",
     github: "https://github.com/sudhirzuge/Employee-Management-System",
+    webapp: " ",
+  },
+  {
+    id: 2,
+    title: "Flavour Express",
+    date: "Nov 2024 - Dec 2024",
+    description:
+      "Flavour Express is a frontend application built using Swiggy's live api having search, login, add to cart functionality",
+    image:
+      "https://github.com/sudhirzuge/sudhir-portfolio/blob/main/flavour%20express%20search%20feature.png?raw=true",
+    tags: ["React.js, TailWind, Formik"],
+    category: "Frontend Apps",
+    github: "https://github.com/sudhirzuge/Flavour-Express",
     webapp: " ",
   },
 ];
