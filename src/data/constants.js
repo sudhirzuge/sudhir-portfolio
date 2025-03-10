@@ -180,30 +180,38 @@ export const projects = [
     tags: [
       "React.js",
       "Tailwind CSS",
-      "JavaScrpt",
+      "JavaScript",
       "Spring Boot",
       "Spring Security",
-      "Hibernate",
-      "Java",
+      "Spring Data JPA",
       "MySQL",
     ],
     category: "Full Stack Apps",
     github: "https://github.com/sudhirzuge/CureAll",
     webapp: " ",
   },
+
   {
     id: 1,
-    title: "Employee Management System",
-    date: "Jan 2025 - Jan 2025",
+    title: "Todo Management",
+    date: "Mar 2025 - Mar 2025",
     description:
-      "Employee Management System is a Simple crud operation full stack application having both employee & admin access",
+      "Todo Management is a full stack application where i have implemented various feature JWT, Spring Security, Role based Registration & Login",
     image:
-      "https://github.com/sudhirzuge/sudhir-portfolio/blob/main/EMS%20Admin.png?raw=true",
-    tags: ["React.js", "Bootstrap", "Spring Boot ", "MySQL"],
-    category: "Full Stack Apps",
-    github: "https://github.com/sudhirzuge/Employee-Management-System",
+      "https://github.com/sudhirzuge/sudhir-portfolio/blob/main/Todo%20role-admin.png?raw=true",
+    tags: [
+      "Spring Boot",
+      "Spring Security",
+      "Spring Data JPA",
+      "JWT",
+      "React.Js",
+      "MySQL",
+    ],
+    category: "Backend Apps",
+    github: "https://github.com/sudhirzuge/Todo-Management",
     webapp: " ",
   },
+
   {
     id: 2,
     title: "Flavour Express",
@@ -212,9 +220,23 @@ export const projects = [
       "Flavour Express is a frontend application built using Swiggy's live api having search, login, add to cart functionality",
     image:
       "https://github.com/sudhirzuge/sudhir-portfolio/blob/main/flavour%20express%20search%20feature.png?raw=true",
-    tags: ["React.js, TailWind, Formik"],
+    tags: ["React.js, TailWind, Axios, Formik"],
     category: "Frontend Apps",
     github: "https://github.com/sudhirzuge/Flavour-Express",
+    webapp: " ",
+  },
+
+  {
+    id: 3,
+    title: "Employee Management System",
+    date: "Jan 2025 - Jan 2025",
+    description:
+      "Employee Management System is a Simple crud operation full stack application having role based access user & admin",
+    image:
+      "https://github.com/sudhirzuge/sudhir-portfolio/blob/main/EMS%20Admin.png?raw=true",
+    tags: ["React.js", "Bootstrap", "Spring Boot ", "Spring Data Jpa", "MySQL"],
+    category: "Full Stack Apps",
+    github: "https://github.com/sudhirzuge/Employee-Management-System",
     webapp: " ",
   },
 ];
