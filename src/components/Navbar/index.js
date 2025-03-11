@@ -53,16 +53,24 @@ const Navbar = () => {
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#contact">Contact</NavLink>
         </NavItems>
-        <ButtonContainer>
-          <GitHubButton href={Bio.github} target="_blank">
-            Github Profile
-          </GitHubButton>
-        </ButtonContainer>
+
         <ButtonContainer>
           <GitHubButton href={Bio.linkedin} target="_blank">
             Linkedin Profile
           </GitHubButton>
         </ButtonContainer>
+        <ButtonContainer>
+          <GitHubButton href={Bio.leetcode} target="_blank">
+            LeetCode Profile
+          </GitHubButton>
+        </ButtonContainer>
+
+        {/* <ButtonContainer>
+          <GitHubButton href={Bio.github} target="_blank">
+            Github
+          </GitHubButton>
+        </ButtonContainer> */}
+
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
             <MobileLink

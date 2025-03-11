@@ -11,6 +11,7 @@ export const Bio = {
     "https://drive.google.com/file/d/1I1O-7IrY-JloYEjA5dovkmRyIJx63s0t/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/sudhirzuge/",
   twitter: "https://x.com/sudhirzuge",
+  leetcode: "https://leetcode.com/u/sudhirzuge/",
 };
 
 export const skills = [
