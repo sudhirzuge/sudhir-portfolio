@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { SiLeetcode } from "react-icons/si";
 
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -87,7 +88,7 @@ const Copyright = styled.p`
 
 function Footer() {
   return (
-    <FooterContainer>
+    <FooterContainer id="rights">
       <FooterWrapper>
         <Logo>Sudhir Zuge</Logo>
         <Nav>
@@ -98,17 +99,22 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#contact">Contact</NavLink>
         </Nav>
-        <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.twitter} target="display">
-            <TwitterIcon />
-          </SocialMediaIcon>
 
+        <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
           </SocialMediaIcon>
 
           <SocialMediaIcon href={Bio.github} target="display">
             <GitHubIcon />
+          </SocialMediaIcon>
+
+          <SocialMediaIcon href={Bio.leetcode} target="display">
+            <SiLeetcode />
+          </SocialMediaIcon>
+
+          <SocialMediaIcon href={Bio.twitter} target="display">
+            <TwitterIcon />
           </SocialMediaIcon>
 
           <SocialMediaIcon href={`mailto:${Bio.email}`} target="display">

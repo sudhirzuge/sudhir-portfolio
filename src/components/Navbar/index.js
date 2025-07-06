@@ -52,6 +52,7 @@ const Navbar = () => {
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#contact">Contact</NavLink>
+          <NavLink href="#rights">Profiles</NavLink>
         </NavItems>
 
         <ButtonContainer>
@@ -59,11 +60,11 @@ const Navbar = () => {
             Linkedin Profile
           </GitHubButton>
         </ButtonContainer>
-        <ButtonContainer>
+        {/* <ButtonContainer>
           <GitHubButton href={Bio.leetcode} target="_blank">
             LeetCode Profile
           </GitHubButton>
-        </ButtonContainer>
+        </ButtonContainer> */}
 
         {/* <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">
@@ -133,7 +134,7 @@ const Navbar = () => {
               href={Bio.github}
               target="_blank"
             >
-              Github Profile
+              Profile
             </GitHubButton>
           </MobileMenu>
         )}

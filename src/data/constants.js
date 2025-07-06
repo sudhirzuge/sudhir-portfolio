@@ -1,14 +1,14 @@
 export const Bio = {
   name: "Sudhir Zuge",
-  roles: ["Full Stack Developer", "Frontend Developer", "Backend Developer"],
+  roles: ["Full Stack Developer", "Frontend Developer"],
 
   description:
-    "I am a Software Developer (Full Stack Developer) with 1.3+ years of experience in building large-scale web applications. My expertise lies in React.js, Redux, JavaScript, HTML5, and CSS3, along with proficiency in backend technologies such as Java, Spring Boot, Spring Security, and RESTful APIs. I thrive on challenges and enjoy working on projects that push me beyond my comfort zone, allowing me to continuously learn and grow.",
+    "I am a Software Developer with 2+ years of experience in building large-scale web applications. My expertise lies in React.js, Redux, JavaScript, HTML5, and CSS3, along with proficiency in backend technologies such as Java, Spring Boot, Spring Security, and RESTful APIs. I thrive on challenges and enjoy working on projects that push me beyond my comfort zone, allowing me to continuously learn and grow.",
 
-  github: "https://github.com/Sudhirzuge",
+  github: "https://github.com/sudhirzuge",
   email: "sudhirzuge2000@gmail.com",
   resume:
-    "https://drive.google.com/file/d/18cmFsK2mVocD5N8yRaZ5R49dJXr6GEBF/view?usp=sharing",
+    "https://drive.google.com/file/d/1Ds_iYsx3Nt3yU8YWDwaml9U6hHUwsYKA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sudhirzuge/",
   twitter: "https://x.com/sudhirzuge",
   leetcode: "https://leetcode.com/u/sudhirzuge/",
@@ -120,12 +120,13 @@ export const experiences = [
     img: "https://upload.wikimedia.org/wikipedia/en/0/01/Atos.svg",
     role: "Frontend Developer",
     company: "Atos",
-    date: "Sept 2022 - Aug 2023",
+    date: "Sept 2022 - Aug 2024",
     desc: "Client : SBMB ( Service Box Multi Brand ).Worked on feature development, implemented user interfaces, ensured a seamless user experience, and built and maintained responsive web applications using React.js.",
     skills: [
       "JavaScript",
       "React.js",
       "Redux.js",
+      "Context API",
       "HTML5",
       "CSS3",
       "Jira",
@@ -171,6 +172,40 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "BankEase",
+    date: " ",
+    description:
+      "◦ BankEase is a full-stack web application designed to streamline core banking operations and enhance the customer-staff experience. Key features include : Account Management : Easy creation and maintenance of savings and current accounts. Transaction Processing : Secure handling of deposits, withdrawals, and fund transfers. Advanced Reporting : Auto-generated statements and analytics for informed decisions. Secure Access : Role-based authentication and protected data operations. ",
+    image: " ",
+    tags: [
+      "React.js",
+      "JavaScript",
+      "Spring Boot",
+      "Spring Security",
+      "Rest API's",
+      "MySQL",
+    ],
+    category: "Full Stack Apps",
+    github: "https://github.com/sudhirzuge/Banking-Management-System",
+    webapp: " ",
+  },
+
+  {
+    id: 1,
+    title: "Flavour Express",
+    date: "Nov 2024 - Dec 2024",
+    description:
+      "Flavour Express is a frontend application built using Swiggy's live api having search, login, add to cart functionality",
+    image:
+      "https://github.com/sudhirzuge/sudhir-portfolio/blob/main/flavour%20express%20search%20feature.png?raw=true",
+    tags: ["React.js, TailWind, Axios, Formik"],
+    category: "Frontend Apps",
+    github: "https://github.com/sudhirzuge/Flavour-Express",
+    webapp: " ",
+  },
+
+  {
+    id: 2,
     title: "CureAll",
     date: "Feb 2025 - Feb 2025",
     description:
@@ -192,7 +227,7 @@ export const projects = [
   },
 
   {
-    id: 1,
+    id: 3,
     title: "Todo Management",
     date: "Mar 2025 - Mar 2025",
     description:
@@ -213,21 +248,7 @@ export const projects = [
   },
 
   {
-    id: 2,
-    title: "Flavour Express",
-    date: "Nov 2024 - Dec 2024",
-    description:
-      "Flavour Express is a frontend application built using Swiggy's live api having search, login, add to cart functionality",
-    image:
-      "https://github.com/sudhirzuge/sudhir-portfolio/blob/main/flavour%20express%20search%20feature.png?raw=true",
-    tags: ["React.js, TailWind, Axios, Formik"],
-    category: "Frontend Apps",
-    github: "https://github.com/sudhirzuge/Flavour-Express",
-    webapp: " ",
-  },
-
-  {
-    id: 3,
+    id: 4,
     title: "Employee Management System",
     date: "Jan 2025 - Jan 2025",
     description:
